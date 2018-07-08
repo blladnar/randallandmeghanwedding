@@ -1,5 +1,5 @@
-<!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+<!-- registry Grid Section -->
+    <section id="registry" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -9,16 +9,16 @@
             </div>
             <div class="row">
             {% for place in site.registry %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="{{ place.url }}" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-4 col-sm-6 registry-item">
+                    <a href="{{ place.url }}" target="_blank" class="registry-link" data-toggle="modal">
+                        <div class="registry-hover">
+                            <div class="registry-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
                         <img src="img/{{ place.imageUrl }}" class="img-responsive img-centered" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="registry-caption">
                         <h4>{{ place.name }}</h4>
                         <p class="text-muted">{{ place.name }}</p>
                     </div>
