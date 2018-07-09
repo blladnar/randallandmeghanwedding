@@ -32,6 +32,7 @@ registry:
   - name: REI
     url: https://www.rei.com/GiftRegistryDetails/15285054
     imageUrl: rei.png
+    description: Outdoor clothing, gear, and footwear from top brands
 
 # Build settings
 markdown: kramdown
