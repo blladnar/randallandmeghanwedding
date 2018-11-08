@@ -34,6 +34,11 @@ registry:
     imageUrl: rei.png
     description: Outdoor clothing, gear, and footwear from top brands
 
+  - name: Zola
+    url: https://www.zola.com/registry/randallandmeghan
+    imageUrl: zola.jpg
+    description: The wedding company that'll do anything for love
+
 # Build settings
 markdown: kramdown
 permalink: pretty
