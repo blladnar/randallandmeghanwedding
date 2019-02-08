@@ -39,6 +39,11 @@ registry:
     imageUrl: zola.jpg
     description: The wedding company that'll do anything for love
 
+  - name: Amazon
+    url: https://www.amazon.com/wedding/share/randallandmeghan
+    imageUrl: amazon.jpg
+    description: Online shopping for electronics, apparel, and more
+
 # Build settings
 markdown: kramdown
 permalink: pretty
